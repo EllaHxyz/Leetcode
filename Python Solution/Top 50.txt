@@ -1,0 +1,54 @@
+As an AI language model, I don't have access to real-time data, and my knowledge is up to date only until September 2021. The popularity of LeetCode questions can change over time as new questions are added and interview trends evolve. However, based on historical trends up to my knowledge cutoff, here is a list of 50 LeetCode questions that have been frequently asked in interviews:
+
+1. Two Sum - 1
+2. Add Two Numbers - 2
+3. Longest Substring Without Repeating Characters - 3
+4. Median of Two Sorted Arrays - 4
+5. Longest Palindromic Substring - 5
+6. Container With Most Water - 11
+7. Merge Two Sorted Lists - 21
+8. Valid Parentheses - 20
+9. Remove Nth Node From End of List - 19
+10. Merge Intervals - 56
+11. Word Search - 79
+12. Reverse Linked List - 206
+13. Maximum Subarray - 53
+14. First Missing Positive - 41
+15. Subsets - 78
+16. Binary Tree Inorder Traversal - 94
+17. Climbing Stairs - 70
+18. Kth Largest Element in an Array - 215
+19. Course Schedule - 207
+20. Product of Array Except Self - 238
+21. Combination Sum - 39
+22. Implement Trie (Prefix Tree) - 208
+23. Letter Combinations of a Phone Number - 17
+24. Remove Duplicates from Sorted Array - 26
+25. Merge k Sorted Lists - 23
+26. Validate Binary Search Tree - 98
+27. Subarray Sum Equals K - 560
+28. Group Anagrams - 49
+29. Search in Rotated Sorted Array - 33
+30. Longest Increasing Subsequence - 300
+31. Find Minimum in Rotated Sorted Array - 153
+32. Longest Common Subsequence - 1143
+33. Course Schedule II - 210
+34. Implement Stack using Queues - 225
+35. Serialize and Deserialize Binary Tree - 297
+36. Search a 2D Matrix - 74
+37. Next Permutation - 31
+38. Palindrome Linked List - 234
+39. Best Time to Buy and Sell Stock - 121
+40. Longest Valid Parentheses - 32
+41. Merge Sorted Array - 88
+42. Copy List with Random Pointer - 138
+43. Minimum Path Sum - 64
+44. Convert Sorted Array to Binary Search Tree - 108
+45. Sort Colors - 75
+46. Unique Paths - 62
+47. Binary Tree Maximum Path Sum - 124
+48. Clone Graph - 133
+49. Pow(x, n) - 50
+50. Search in a Binary Search Tree - 700
+
+Keep in mind that interview questions can vary based on the company, role, and interviewer's preferences. I recommend regularly checking LeetCode's "Top Interview Questions" section to stay updated on the most commonly asked questions. Additionally, focusing on understanding problem-solving techniques and concepts will help you tackle a broader range of questions effectively.
