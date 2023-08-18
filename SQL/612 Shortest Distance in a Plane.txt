@@ -1,0 +1,6 @@
+
+SELECT round(min(list),2) AS shortest
+FROM (
+ SELECT if(a.x=b.x and a.y=b.y, 10000, sqrt(power(a.x-b.x,2)+power(a.y-b.y,2))) AS dist
+ FROM point_2d as a, point_2d as b
+)

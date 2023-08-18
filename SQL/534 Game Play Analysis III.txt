@@ -1,0 +1,10 @@
+select player_id, event_date, games_played_so_far
+from (
+ select player_id, event_date,
+  @games := if (player_id = @player, @games + games_played, games_played)
+  as games_played_so_far,
+  @player := player_id
+ from 
+  (select * from Activity order by player_id, event_date) as a,
+  (select @player := -1, @games := 0) as tmp
+) as t;
