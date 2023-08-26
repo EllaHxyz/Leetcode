@@ -1,0 +1,14 @@
+
+SELECT p.product_id, e.employee_id
+FROM project p, employee e
+WHERE p.employee_id  = e.employee_id and (product_id, employee_id) in
+ (
+	SELECT p.product_id, e.employee_id, max(experience_years)
+	FROM project p
+	LEFT JOIN employee e
+	USING (employee_id)
+	GROUP BY project_id
+ ) as q
+ 
+
+ 

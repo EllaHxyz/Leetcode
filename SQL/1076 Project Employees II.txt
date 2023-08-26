@@ -1,0 +1,14 @@
+
+SELECT project_id
+FROM project
+GROUP BY project_id
+HAVING count(employee_id) >= (
+	SELECT count(employee_id) as tt 
+	FROM project
+	GROUP BY project_id
+	ORDER BY tt DESC
+	LIMIT 1) as most_employees;
+
+
+
+ 
